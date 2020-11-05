@@ -441,7 +441,7 @@ contract PausableToken is StandardToken, Pausable {
   }
 }
 
-contract MATHToken is PausableToken, MintableToken {
+contract BEP20Token is PausableToken, MintableToken {
     // public variables
     string public name = "ABC Token";
     string public symbol = "ABC";
