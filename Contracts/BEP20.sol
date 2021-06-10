@@ -443,8 +443,8 @@ contract PausableToken is StandardToken, Pausable {
 
 contract BEP20Token is PausableToken, MintableToken {
     // public variables
-    string public name = "ABC Token";
-    string public symbol = "ABC";
+    string public name = "Duc Khoa";
+    string public symbol = "DucKhoa";
     uint8 public decimals = 18;
 
     constructor() public {
